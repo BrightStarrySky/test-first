@@ -1,0 +1,8 @@
+this is a new project
+
+
+
+function test(){
+	return "test"
+}
+test()
