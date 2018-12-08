@@ -2,10 +2,37 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 </head>
+<style>
+	.testTitle{
+		cursor: pointer;
+		-webkit-user-select: none; /*禁止文本复制*/
+	}
+</style>
 <body>
-	<input type="color"/>
+	<marquee behavior="alternate">Hello, World</marquee>
+	<h1 class='testTitle' onclick="changeColor()">test</h1>
+	<!-- direction="right" ：从左向右滚动
+
+	direction="up"  ：从下向上滚动
+
+	direction="left"  ：从右向左滚动（默认情况）
+
+	direction= "down" ：从上向下滚动 -->
+	<!-- scrollamount可以控制文字滚动的速度。 -->
+
+
+	<!-- loop可以控制文字滚动的次数，但是默认的值是-1.也就是无限次滚动
+
+	loop="1",就可以让文字仅仅滚动一次。
+
+	behavior可以设置滚动的类型。
+
+	behavior="slide"，文字滚动到边界后就会停止，不会再继续滚动。
+
+	behavior="alternate" 文字滚动到边界后会反方向弹回来，并且来回滚动。 -->
 </body>
+<script type="text/javascript" src="./demo.js"></script>
 </html>
